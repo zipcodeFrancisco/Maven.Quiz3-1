@@ -12,7 +12,7 @@ public class GetLabTest {
     @Test
     public void test1() {
         // given
-        String labName = "duplicate deleter";
+        String labName = "asdsadsr";
         Lab expected = new Lab(labName);
         Student student = new Student();
         student.forkLab(expected);
@@ -27,7 +27,7 @@ public class GetLabTest {
     @Test
     public void test2() {
         // given
-        String labName = "learner lab";
+        String labName = "sda dasdassa";
         Lab expected = new Lab(labName);
         Student student = new Student();
         student.forkLab(expected);

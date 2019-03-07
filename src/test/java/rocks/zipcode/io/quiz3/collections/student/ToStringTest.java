@@ -13,12 +13,12 @@ public class ToStringTest {
     @Test
     public void test1() {
         // given
-        String labName = "duplicate deleter";
-        Lab duplicateDeleter = new Lab("duplicate deleter");
-        Lab learnerLab = new Lab("learner lab");
+        String labName = "blerpp";
+        Lab duplicateDeleter = new Lab("blerpp");
+        Lab learnerLab = new Lab("blarpp");
         Student student = new Student();
         LabStatus completed = LabStatus.valueOf("COMPLETED");
-        String expected = "duplicate deleter > COMPLETED\nlearner lab > PENDING";
+        String expected = "blerpp > COMPLETED\nblarpp > PENDING";
 
         // when
         student.forkLab(learnerLab);
@@ -32,14 +32,14 @@ public class ToStringTest {
     @Test
     public void test2() {
         // given
-        String casinoLabName = "casino";
-        String learnerLabName = "learner lab";
+        String casinoLabName = "asdaads";
+        String learnerLabName = "lncbnv";
         Lab casino = new Lab(casinoLabName);
         Lab learnerLab = new Lab(learnerLabName);
         Student student = new Student();
         LabStatus completed = LabStatus.valueOf("COMPLETED");
         LabStatus incomplete = LabStatus.valueOf("INCOMPLETE");
-        String expected = "casino > COMPLETED\nlearner lab > INCOMPLETE";
+        String expected = "asdaads > COMPLETED\nlncbnv > INCOMPLETE";
 
         // when
         student.forkLab(learnerLab);

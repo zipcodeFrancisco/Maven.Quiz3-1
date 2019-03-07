@@ -13,7 +13,7 @@ public class SetLabStatusOfForkedLab {
     @Test
     public void testCompleted() {
         // given
-        String labName = "duplicate deleter";
+        String labName = "13123";
         Lab lab = new Lab(labName);
         Student student = new Student();
         LabStatus expected = LabStatus.valueOf("COMPLETED");
@@ -30,7 +30,7 @@ public class SetLabStatusOfForkedLab {
     @Test
     public void testPending() {
         // given
-        String labName = "duplicate deleter";
+        String labName = "afd32f4";
         Lab lab = new Lab(labName);
         Student student = new Student();
         LabStatus expected = LabStatus.valueOf("PENDING");
@@ -47,7 +47,7 @@ public class SetLabStatusOfForkedLab {
     @Test
     public void testIncomplete() {
         // given
-        String labName = "duplicate deleter";
+        String labName = "asfd4r";
         Lab lab = new Lab(labName);
         Student student = new Student();
         LabStatus expected = LabStatus.valueOf("INCOMPLETE");

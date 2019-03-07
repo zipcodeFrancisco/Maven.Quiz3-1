@@ -12,7 +12,7 @@ public class SetLabStatusOfUnforkedLab {
     @Test(expected = UnsupportedOperationException.class)
     public void testCompleted() {
         // given
-        String labName = "duplicate deleter";
+        String labName = "dasfdasf";
         Lab lab = new Lab(labName);
         Student student = new Student();
         LabStatus expected = LabStatus.valueOf("COMPLETED");
@@ -24,7 +24,7 @@ public class SetLabStatusOfUnforkedLab {
     @Test(expected = UnsupportedOperationException.class)
     public void testPending() {
         // given
-        String labName = "duplicate deleter";
+        String labName = "fhgf";
         Lab lab = new Lab(labName);
         Student student = new Student();
         LabStatus expected = LabStatus.valueOf("PENDING");
@@ -36,7 +36,7 @@ public class SetLabStatusOfUnforkedLab {
     @Test(expected = UnsupportedOperationException.class)
     public void testIncomplete() {
         // given
-        String labName = "duplicate deleter";
+        String labName = "yutyut56";
         Lab lab = new Lab(labName);
 
         Student student = new Student();
