@@ -12,7 +12,7 @@ public class IntegerGetNumberOfOccurrences {
     public void test1() {
         // given
         Integer expected = 2;
-        Integer valueToEvaluate = 5;
+        Integer valueToEvaluate = 123;
         Integer[] array = new Integer[]{1, 2, 3, 4, valueToEvaluate, valueToEvaluate};
         ArrayUtility<Integer> utility = new ArrayUtility<>(array);
 
@@ -27,7 +27,7 @@ public class IntegerGetNumberOfOccurrences {
     public void test2() {
         // given
         Integer expected = 4;
-        Integer valueToEvaluate = 18;
+        Integer valueToEvaluate = 118;
         Integer[] array = new Integer[]{1, 1, 1, 2, 2, 2, 2, 2, valueToEvaluate, 4, 4, 4, valueToEvaluate, valueToEvaluate, valueToEvaluate};
         ArrayUtility<Integer> utility = new ArrayUtility<>(array);
 
@@ -43,7 +43,7 @@ public class IntegerGetNumberOfOccurrences {
     public void test3() {
         // given
         Integer expected = 6;
-        Integer valueToEvaluate = 30;
+        Integer valueToEvaluate = 3210;
         Integer[] array = new Integer[]{1, valueToEvaluate, 4, valueToEvaluate, valueToEvaluate, 10, 10, 10, valueToEvaluate, valueToEvaluate, valueToEvaluate};
         ArrayUtility<Integer> utility = new ArrayUtility<>(array);
 
