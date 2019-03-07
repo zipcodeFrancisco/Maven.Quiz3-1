@@ -17,23 +17,23 @@ public class StartsWithVowel {
     }
 
     public void test1() {
-        String input = "Jumping Jacks";
+        String input = "State";
         Assert.assertFalse(VowelUtils.startsWithVowel(input));
     }
 
 
     public void test2() {
-        String input = "Hey there world";
+        String input = "Place";
         Assert.assertFalse(VowelUtils.startsWithVowel(input));
     }
 
     public void test3() {
-        String input = "Eggnog";
+        String input = "Umbrella";
         Assert.assertTrue(VowelUtils.startsWithVowel(input));
     }
 
     public void test4() {
-        String input = "Optical";
+        String input = "Optional";
         Assert.assertTrue(VowelUtils.startsWithVowel(input));
     }
 
