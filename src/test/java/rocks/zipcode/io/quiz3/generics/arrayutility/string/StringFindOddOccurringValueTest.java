@@ -11,7 +11,7 @@ public class StringFindOddOccurringValueTest {
     @Test
     public void test1() {
         // given
-        String expected = "Wilmington";
+        String expected = "y544gdg";
         String[] array = {expected, expected, expected, "Code", "Code", "Code", "Code", "Zip", "Zip"};
         ArrayUtility<String> utility = new ArrayUtility<>(array);
 
@@ -23,7 +23,7 @@ public class StringFindOddOccurringValueTest {
     @Test
     public void test2() {
         // given
-        String expected = "(-_-)";
+        String expected = "86ijfhhgf";
         String[] array = {expected, expected, expected, "Code", "Code", "Code", "Code", expected, expected, "Wilmington", "Wilmington"};
         ArrayUtility<String> utility = new ArrayUtility<>(array);
 
@@ -35,7 +35,7 @@ public class StringFindOddOccurringValueTest {
     @Test
     public void test3() {
         // given
-        String expected = "Code";
+        String expected = "cbcb";
         String[] array = {"Zip", "Zip", "Zip", "Zip", "Zip", "Zip", expected, expected, expected, expected, "Wilmington", "Wilmington", expected, expected, expected};
         ArrayUtility<String> utility = new ArrayUtility<>(array);
 
