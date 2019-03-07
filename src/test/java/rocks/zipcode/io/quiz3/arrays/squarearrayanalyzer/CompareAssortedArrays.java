@@ -15,38 +15,38 @@ public class CompareAssortedArrays {
 
     @Test
     public void test1() {
-        Integer[] array = {1, 2, 3};
-        Integer[] arraySquared = {1, 4, 9};
-        assortAndCompare(array, arraySquared);
+        Integer[] array = {7, 5, 10};
+        Integer[] arraySquared = {49, 25, 100};
+        test(array, arraySquared);
     }
 
     @Test
     public void test2() {
-        Integer[] array = {3, 4, 5};
-        Integer[] arraySquared = {9, 16, 25};
-        assortAndCompare(array, arraySquared);
+        Integer[] array = {1, 1, 1};
+        Integer[] arraySquared = {1, 1, 1};
+        test(array, arraySquared);
     }
 
     @Test
     public void test3() {
-        Integer[] array = {121, 144, 19, 161, 19, 144, 19, 11};
-        Integer[] arraySquared = {121, 14641, 20736, 361, 25921, 361, 20736, 361};
-        assortAndCompare(array, arraySquared);
+        Integer[] array = {3, 4, 6};
+        Integer[] arraySquared = {9, 16, 36};
+        test(array, arraySquared);
     }
-    
-    private void assortAndCompare(Integer[] array1, Integer[] array2) {
+
+    private void test(Integer[] array1, Integer[] array2) {
         List<Integer> intList1 = Arrays.asList(array1);
         List<Integer> intList2 = Arrays.asList(array2);
-        
+
         Collections.shuffle(intList1);
         Collections.shuffle(intList2);
-        
+
         array1 = intList1.toArray(new Integer[intList1.size()]);
         array2 = intList2.toArray(new Integer[intList2.size()]);
-        
+
         Assert.assertTrue(SquareArrayAnalyzer.compare(array1, array2));
     }
-    
-    
+
+
 
 }
