@@ -12,14 +12,14 @@ public class StringFilterTest {
     @Test
     public void test1() {
         // given
-        String[] expected = {"quick", "brown", "jumps", "over", "lazy"};
         String[] input = "The quick brown fox jumps over the lazy dog".split(" ");
+        String[] expected = input;
         ArrayUtility<String> utility = new ArrayUtility<>(input);
 
 
 
         // when
-        String[] actual = utility.filter(string -> string.length() > 3);
+        String[] actual = utility.filter(string -> string.length() > 2);
 
         // then
         TestUtils.assertArrayEquals(expected, actual);
@@ -29,12 +29,12 @@ public class StringFilterTest {
     @Test
     public void test2() {
         // given
-        String[] expected = {"The", "fox", "the", "dog"};
+        String[] expected = {"The", "fox", "over", "the", "lazy", "dog"};
         String[] input = "The quick brown fox jumps over the lazy dog".split(" ");
         ArrayUtility<String> utility = new ArrayUtility<>(input);
 
         // when
-        String[] actual = utility.filter(string -> string.length() <= 3);
+        String[] actual = utility.filter(string -> string.length() <= 4);
 
         // then
         TestUtils.assertArrayEquals(expected, actual);
@@ -44,12 +44,12 @@ public class StringFilterTest {
     @Test
     public void test3() {
         // given
-        String[] expected = {"The", "over", "the"};
+        String[] expected = {"brown", "fox", "over", "dog"};
         String[] input = "The quick brown fox jumps over the lazy dog".split(" ");
         ArrayUtility<String> utility = new ArrayUtility<>(input);
 
         // when
-        String[] actual = utility.filter(string -> string.contains("e"));
+        String[] actual = utility.filter(string -> string.contains("o"));
 
         // then
         TestUtils.assertArrayEquals(expected, actual);
