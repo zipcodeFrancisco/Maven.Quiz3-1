@@ -16,17 +16,10 @@ public class StringUtils {
     }
 
     public static String[] getAllSubStrings(String string) {
-        List<String> result = new ArrayList<>();
-        int length = string.length();
-        for (int c = 0; c < length; c++) {
-            for (int i = 1; i <= length - c; i++) {
-                result.add(string.substring(c, c + i));
-            }
-        }
-        return result.stream().distinct().toArray(String[]::new);
+        return null;
     }
 
-    public static Integer getNumberOfSubStrings(String input) {
-        return getAllSubStrings(input).length;
+    public static Integer getNumberOfSubStrings(String input){
+        return null;
     }
 }

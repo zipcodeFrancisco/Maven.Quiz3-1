@@ -28,14 +28,6 @@ public class TicTacToe {
     }
 
     public String getWinner() {
-        for (int i = 0; i < 3 ; i++) {
-            if(isRowHomogenous(i)) {
-                return getRow(i)[0];
-            }
-            if(isColumnHomogeneous(i)){
-                return getColumn(i)[0];
-            }
-        }
         return null;
     }
 
