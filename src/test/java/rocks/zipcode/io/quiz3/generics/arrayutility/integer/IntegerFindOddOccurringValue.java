@@ -11,7 +11,7 @@ public class IntegerFindOddOccurringValue {
     @Test
     public void test1() {
         // given
-        Integer expected = 5;
+        Integer expected = 15;
         Integer[] array = new Integer[]{1, 1, 2, 2, 3, 3, expected, expected, expected};
         ArrayUtility<Integer> utility = new ArrayUtility<>(array);
 
@@ -25,7 +25,7 @@ public class IntegerFindOddOccurringValue {
     @Test
     public void test2() {
         // given
-        Integer expected = 18;
+        Integer expected = 118;
         Integer[] array = new Integer[]{1, 1, 6, 6, 9, 9, expected, expected, expected, expected, expected};
         ArrayUtility<Integer> utility = new ArrayUtility<>(array);
 
@@ -40,7 +40,7 @@ public class IntegerFindOddOccurringValue {
     @Test
     public void test3() {
         // given
-        Integer expected = 30;
+        Integer expected = 130;
         Integer[] array = new Integer[]{11, 11, 11, 11, 20, 20, 27, 27, 27, 27, expected, expected, expected, expected, expected, expected, expected};
         ArrayUtility<Integer> utility = new ArrayUtility<>(array);
 
