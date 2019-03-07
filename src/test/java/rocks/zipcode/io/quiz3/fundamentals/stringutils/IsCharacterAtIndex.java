@@ -11,8 +11,8 @@ public class IsCharacterAtIndex {
     @Test
     public void test1() {
         // given
-        String string = "Quickly";
-        Character character = 'q';
+        String string = "Shenanigan";
+        Character character = 's';
         Integer index = 0;
 
         // then
@@ -22,8 +22,8 @@ public class IsCharacterAtIndex {
     @Test
     public void test2() {
         // given
-        String string = "Quickly";
-        Character character = 'Q';
+        String string = "Shenanigan";
+        Character character = 'S';
         Integer index = 0;
 
         // then
@@ -34,9 +34,9 @@ public class IsCharacterAtIndex {
     @Test
     public void test3() {
         // given
-        String string = "Quickly";
-        Character character = 'y';
-        Integer index = 6;
+        String string = "Shenanigan";
+        Character character = 'n';
+        Integer index = 9;
 
         // then
         Assert.assertTrue(StringUtils.isCharacterAtIndex(string, character, index));
@@ -45,9 +45,9 @@ public class IsCharacterAtIndex {
     @Test
     public void test4() {
         // given
-        String string = "Quickly";
-        Character character = 'Y';
-        Integer index = 6;
+        String string = "Shenanigan";
+        Character character = 'h';
+        Integer index = 1;
 
         // then
         Assert.assertFalse(StringUtils.isCharacterAtIndex(string, character, index));

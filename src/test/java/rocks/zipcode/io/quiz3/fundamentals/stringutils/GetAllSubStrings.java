@@ -13,22 +13,29 @@ public class GetAllSubStrings {
     @Test
     public void test1() {
         // given
-        String input = "Hello";
+        String input = "bracer";
         String[] expected = {
-                "H",
-                "He",
-                "Hel",
-                "Hell",
-                "Hello",
+                "a",
+                "ac",
+                "ace",
+                "acer",
+                "b",
+                "br",
+                "bra",
+                "brac",
+                "brace",
+                "bracer",
+                "c",
+                "ce",
+                "cer",
                 "e",
-                "el",
-                "ell",
-                "ello",
-                "l",
-                "ll",
-                "llo",
-                "lo",
-                "o"};
+                "er",
+                "r",
+                "r",
+                "ra",
+                "rac",
+                "race",
+                "racer"};
 
         // when
         String[] actual = StringUtils.getAllSubStrings(input);
@@ -40,36 +47,23 @@ public class GetAllSubStrings {
     @Test
     public void test5() {
         // given
-        String input = "Janitor";
+        String input = "Flame";
         String[] expected = {
-                "J",
-                "Ja",
-                "Jan",
-                "Jani",
-                "Janit",
-                "Janito",
-                "Janitor",
+                "F",
+                "Fl",
+                "Fla",
+                "Flam",
+                "Flame",
                 "a",
-                "an",
-                "ani",
-                "anit",
-                "anito",
-                "anitor",
-                "i",
-                "it",
-                "ito",
-                "itor",
-                "n",
-                "ni",
-                "nit",
-                "nito",
-                "nitor",
-                "o",
-                "or",
-                "r",
-                "t",
-                "to",
-                "tor"};
+                "am",
+                "ame",
+                "e",
+                "l",
+                "la",
+                "lam",
+                "lame",
+                "m",
+                "me"};
 
         // when
         String[] actual = StringUtils.getAllSubStrings(input);
