@@ -11,8 +11,8 @@ public class GetIndexOfFirstVowel {
     @Test
     public void test1() {
         // given
-        String input = "Psychological Warfare";
-        Integer expected = 5;
+        String input = "Burp";
+        Integer expected = 1;
 
         // when
         Integer actual = VowelUtils.getIndexOfFirstVowel(input);
@@ -38,7 +38,7 @@ public class GetIndexOfFirstVowel {
     @Test
     public void test3() {
         // given
-        String input = "Pterodactyl";
+        String input = "Blooper";
         Integer expected = 2;
 
         // when
