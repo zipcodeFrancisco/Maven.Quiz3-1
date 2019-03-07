@@ -11,8 +11,8 @@ public class CapitalizeNthCharacter {
     @Test
     public void test1() {
         // given
-        String input = "hello";
-        String expected = "Hello";
+        String input = "worker";
+        String expected = "Worker";
         Integer indexToCapitalize = 0;
 
         // when
@@ -25,8 +25,8 @@ public class CapitalizeNthCharacter {
     @Test
     public void test2() {
         // given
-        String input = "hello";
-        String expected = "hEllo";
+        String input = "worker";
+        String expected = "wOrker";
         Integer indexToCapitalize = 1;
 
         // when
@@ -39,8 +39,8 @@ public class CapitalizeNthCharacter {
     @Test
     public void test3() {
         // given
-        String input = "hello";
-        String expected = "heLlo";
+        String input = "worker";
+        String expected = "woRker";
         Integer indexToCapitalize = 2;
 
         // when
