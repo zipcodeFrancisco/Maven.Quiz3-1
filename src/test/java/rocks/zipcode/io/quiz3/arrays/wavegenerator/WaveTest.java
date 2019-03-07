@@ -11,15 +11,12 @@ public class WaveTest {
     @Test
     public void test0() {
         // given
-        String input = "AAAAAAA";
+        String input = "BBBB";
         String[] expected = {
-                "Aaaaaaa",
-                "aAaaaaa",
-                "aaAaaaa",
-                "aaaAaaa",
-                "aaaaAaa",
-                "aaaaaAa",
-                "aaaaaaA"};
+                "Bbbb",
+                "bBbb",
+                "bbBb",
+                "bbbB"};
 
         // when
         String[] actual = WaveGenerator.wave(input);
@@ -31,15 +28,12 @@ public class WaveTest {
     @Test
     public void test1() {
         // given
-        String input = "aaaaaaa";
+        String input = "bbbb";
         String[] expected = {
-                "Aaaaaaa",
-                "aAaaaaa",
-                "aaAaaaa",
-                "aaaAaaa",
-                "aaaaAaa",
-                "aaaaaAa",
-                "aaaaaaA"};
+                "Bbbb",
+                "bBbb",
+                "bbBb",
+                "bbbB"};
 
         // when
         String[] actual = WaveGenerator.wave(input);
@@ -51,11 +45,11 @@ public class WaveTest {
     @Test
     public void test2() {
         // given
-        String input = "A_A_A";
+        String input = "B_B_B";
         String[] expected = {
-                "A_a_a",
-                "a_A_a",
-                "a_a_A"};
+                "B_b_b",
+                "b_B_b",
+                "b_b_B"};
 
         // when
         String[] actual = WaveGenerator.wave(input);
@@ -68,21 +62,10 @@ public class WaveTest {
     @Test
     public void test4() {
         // given
-        String input = "Radioactivity";
+        String input = "ZZ";
         String[] expected = {
-                "Radioactivity",
-                "rAdioactivity",
-                "raDioactivity",
-                "radIoactivity",
-                "radiOactivity",
-                "radioActivity",
-                "radioaCtivity",
-                "radioacTivity",
-                "radioactIvity",
-                "radioactiVity",
-                "radioactivIty",
-                "radioactiviTy",
-                "radioactivitY"};
+                "Zz",
+                "zZ"};
 
         // when
         String[] actual = WaveGenerator.wave(input);
@@ -94,24 +77,12 @@ public class WaveTest {
     @Test
     public void test5() {
         // given
-        String input = "the quick brown fox";
+        String input = "Yerp!";
         String[] expected = {
-                "The quick brown fox",
-                "tHe quick brown fox",
-                "thE quick brown fox",
-                "the Quick brown fox",
-                "the qUick brown fox",
-                "the quIck brown fox",
-                "the quiCk brown fox",
-                "the quicK brown fox",
-                "the quick Brown fox",
-                "the quick bRown fox",
-                "the quick brOwn fox",
-                "the quick broWn fox",
-                "the quick browN fox",
-                "the quick brown Fox",
-                "the quick brown fOx",
-                "the quick brown foX"};
+                "Yerp",
+                "yErp",
+                "yeRp",
+                "yerP"};
 
         // when
         String[] actual = WaveGenerator.wave(input);
@@ -124,23 +95,11 @@ public class WaveTest {
     @Test
     public void test6() {
         // given
-        String input = "the quick brown f0x!";
+        String input = "HEY!";
         String[] expected = {
-                "The quick brown f0x!",
-                "tHe quick brown f0x!",
-                "thE quick brown f0x!",
-                "the Quick brown f0x!",
-                "the qUick brown f0x!",
-                "the quIck brown f0x!",
-                "the quiCk brown f0x!",
-                "the quicK brown f0x!",
-                "the quick Brown f0x!",
-                "the quick bRown f0x!",
-                "the quick brOwn f0x!",
-                "the quick broWn f0x!",
-                "the quick browN f0x!",
-                "the quick brown F0x!",
-                "the quick brown f0X!"};
+                "Hey!",
+                "hEy!",
+                "heY!"};
 
         // when
         String[] actual = WaveGenerator.wave(input);
@@ -151,13 +110,13 @@ public class WaveTest {
 
     @Test
     public void test7() {
-        String input = "hello";
+        String input = "juice";
         String[] expected = {
-                "Hello",
-                "hEllo",
-                "heLlo",
-                "helLo",
-                "hellO"};
+                "Juice",
+                "jUice",
+                "juIce",
+                "juiCe",
+                "juicE"};
         // when
         String[] actual = WaveGenerator.wave(input);
 
@@ -167,16 +126,16 @@ public class WaveTest {
 
     @Test
     public void test8() {
-        String input = "two words";
+        String input = "two_words";
         String[] expected = {
-                "Two words",
-                "tWo words",
-                "twO words",
-                "two Words",
-                "two wOrds",
-                "two woRds",
-                "two worDs",
-                "two wordS"};
+                "Two_words",
+                "tWo_words",
+                "twO_words",
+                "two_Words",
+                "two_wOrds",
+                "two_woRds",
+                "two_worDs",
+                "two_wordS"};
         // when
         String[] actual = WaveGenerator.wave(input);
 
@@ -186,11 +145,11 @@ public class WaveTest {
 
     @Test
     public void test9() {
-        String input = " gap ";
+        String input = " tag ";
         String[] expected = {
-                " Gap ",
-                " gAp ",
-                " gaP "};
+                " Tag ",
+                " tAg ",
+                " taG "};
         // when
         String[] actual = WaveGenerator.wave(input);
 
