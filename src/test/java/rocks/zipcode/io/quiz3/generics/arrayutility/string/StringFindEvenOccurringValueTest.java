@@ -11,7 +11,7 @@ public class StringFindEvenOccurringValueTest {
     @Test
     public void test1() {
         // given
-        String expected = "Zip";
+        String expected = "adas";
         String[] array = {expected, expected, "Code", "Code", "Code", "Wilmington"};
         ArrayUtility<String> utility = new ArrayUtility<>(array);
 
@@ -23,7 +23,7 @@ public class StringFindEvenOccurringValueTest {
     @Test
     public void test2() {
         // given
-        String expected = "(-_-)";
+        String expected = "(45 4h";
         String[] array = {expected, expected, "Code", "Code", "Code", expected, expected, "Wilmington"};
         ArrayUtility<String> utility = new ArrayUtility<>(array);
 
@@ -35,7 +35,7 @@ public class StringFindEvenOccurringValueTest {
     @Test
     public void test3() {
         // given
-        String expected = "Code";
+        String expected = ";lk";
         String[] array = {"Zip", "Zip", "Zip", expected, expected, expected, "Wilmington", expected, expected, expected};
         ArrayUtility<String> utility = new ArrayUtility<>(array);
 
