@@ -15,17 +15,17 @@ public class HasVowels {
         test3();
     }
     public void test1() {
-        String input = "qwrtypsdfghjklzxcvbnm";
+        String input = "qwrtyps_dfghjklzxcvbnm";
         Assert.assertFalse(VowelUtils.hasVowels(input));
     }
 
     public void test2() {
-        String input = "qwrtypsdfghjklzxcvbnma";
+        String input = "_a";
         Assert.assertTrue(VowelUtils.hasVowels(input));
     }
 
     public void test3() {
-        String input = "qwrtypsdfghjklzxcvbnm_";
+        String input = "!e";
         Assert.assertFalse(VowelUtils.hasVowels(input));
     }
 }
