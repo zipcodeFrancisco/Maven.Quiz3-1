@@ -18,11 +18,11 @@ public class TranslateSingleWordStartingWithVowel {
 
     @Test
     public void testegg() {
-        Assert.assertEquals("eggway", p.translate("egg"));
+        Assert.assertEquals("aggway", p.translate("agg"));
     }
 
     @Test
     public void testapple() {
-        Assert.assertEquals("appleway", p.translate("apple"));
+        Assert.assertEquals("uppleway", p.translate("upple"));
     }
 }
