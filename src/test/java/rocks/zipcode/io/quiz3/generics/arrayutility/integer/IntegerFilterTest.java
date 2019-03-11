@@ -4,6 +4,7 @@ import org.junit.Test;
 import rocks.zipcode.io.quiz3.utils.TestUtils;
 import rocks.zipcode.io.quiz3.generics.ArrayUtility;
 
+import java.util.Arrays;
 import java.util.function.Function;
 
 /**
@@ -47,7 +48,7 @@ public class IntegerFilterTest {
     public void test3() {
         // given
         Integer[] array = new Integer[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 98};
-        Integer[] expected = array;
+        Integer[] expected = Arrays.copyOf(array, array.length-1);
         ArrayUtility<Integer> utility = new ArrayUtility<>(array);
         Function<Integer, Boolean> predicate = val -> val < 50;
 

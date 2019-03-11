@@ -31,7 +31,6 @@ public class GetAllSubStringsTest {
                 "e",
                 "er",
                 "r",
-                "r",
                 "ra",
                 "rac",
                 "race",

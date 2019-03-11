@@ -77,7 +77,7 @@ public class WaveTest {
     @Test
     public void test5() {
         // given
-        String input = "Yerp!";
+        String input = "Yerp";
         String[] expected = {
                 "Yerp",
                 "yErp",

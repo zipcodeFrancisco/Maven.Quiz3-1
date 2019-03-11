@@ -26,6 +26,6 @@ public class HasVowelsTest {
 
     public void test3() {
         String input = "!e";
-        Assert.assertFalse(VowelUtils.hasVowels(input));
+        Assert.assertTrue(VowelUtils.hasVowels(input));
     }
 }

@@ -13,12 +13,12 @@ public class ToStringTest {
     @Test
     public void test1() {
         // given
-        String labName = "blerpp";
-        Lab duplicateDeleter = new Lab("blerpp");
-        Lab learnerLab = new Lab("blarpp");
+        String labName = "blarpp";
+        Lab duplicateDeleter = new Lab(labName);
+        Lab learnerLab = new Lab("blerpp");
         Student student = new Student();
         LabStatus completed = LabStatus.valueOf("COMPLETED");
-        String expected = "blerpp > COMPLETED\nblarpp > PENDING";
+        String expected = "blarpp > COMPLETED\nblerpp > PENDING";
 
         // when
         student.forkLab(learnerLab);

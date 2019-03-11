@@ -12,7 +12,7 @@ public class IsCharacterAtIndexTest {
     public void test1() {
         // given
         String string = "Shenanigan";
-        Character character = 's';
+        Character character = 'S';
         Integer index = 0;
 
         // then
@@ -21,9 +21,9 @@ public class IsCharacterAtIndexTest {
 
     @Test
     public void test2() {
-        // given
         String string = "Shenanigan";
-        Character character = 'S';
+        Character character = 's';
+
         Integer index = 0;
 
         // then
@@ -50,7 +50,7 @@ public class IsCharacterAtIndexTest {
         Integer index = 1;
 
         // then
-        Assert.assertFalse(StringUtils.isCharacterAtIndex(string, character, index));
+        Assert.assertTrue(StringUtils.isCharacterAtIndex(string, character, index));
     }
 
 }
