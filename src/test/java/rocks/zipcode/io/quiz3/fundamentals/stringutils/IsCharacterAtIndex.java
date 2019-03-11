@@ -12,7 +12,7 @@ public class IsCharacterAtIndex {
     public void test1() {
         // given
         String string = "Quickly";
-        Character character = 'q';
+        Character character = 'Q';
         Integer index = 0;
 
         // then
@@ -23,7 +23,7 @@ public class IsCharacterAtIndex {
     public void test2() {
         // given
         String string = "Quickly";
-        Character character = 'Q';
+        Character character = 'q';
         Integer index = 0;
 
         // then
