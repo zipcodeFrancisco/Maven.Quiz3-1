@@ -7,7 +7,7 @@ import rocks.zipcode.io.quiz3.arrays.TicTacToe;
 /**
  * @author leon on 10/12/2018.
  */
-public class GetWinner {
+public class GetWinnerTest {
     @Test
     public void testDiagonal1() {
         // given

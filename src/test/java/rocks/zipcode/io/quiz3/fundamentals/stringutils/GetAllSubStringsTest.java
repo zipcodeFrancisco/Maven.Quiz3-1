@@ -9,7 +9,7 @@ import java.util.Arrays;
 /**
  * @author leon on 10/12/2018.
  */
-public class GetAllSubStrings {
+public class GetAllSubStringsTest {
     @Test
     public void test1() {
         // given

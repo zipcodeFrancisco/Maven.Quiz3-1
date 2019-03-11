@@ -13,7 +13,7 @@ import static jdk.nashorn.internal.objects.NativeRegExp.test;
 /**
  * @author leon on 10/12/2018.
  */
-public class CompareAssortedArrays {
+public class CompareAssortedArraysTest {
 
     @Test
     public void test1() {

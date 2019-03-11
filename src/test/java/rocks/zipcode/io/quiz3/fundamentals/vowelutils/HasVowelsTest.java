@@ -7,7 +7,7 @@ import rocks.zipcode.io.quiz3.fundamentals.VowelUtils;
 /**
  * @author leon on 09/12/2018.
  */
-public class HasVowels {
+public class HasVowelsTest {
     @Test
     public void test() {
         test1();

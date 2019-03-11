@@ -9,7 +9,7 @@ import rocks.zipcode.io.quiz3.fundamentals.PigLatinGenerator;
  * @author leon on 09/12/2018.
  *
  */
-public class TranslateSingleWordStartingWithConsonant {
+public class TranslateSingleWordStartingWithConsonantTest {
     private PigLatinGenerator p;
 
     @Before

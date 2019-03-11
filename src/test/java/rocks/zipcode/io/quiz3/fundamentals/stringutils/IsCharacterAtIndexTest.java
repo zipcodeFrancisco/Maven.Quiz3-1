@@ -7,7 +7,7 @@ import rocks.zipcode.io.quiz3.fundamentals.StringUtils;
 /**
  * @author leon on 09/12/2018.
  */
-public class IsCharacterAtIndex {
+public class IsCharacterAtIndexTest {
     @Test
     public void test1() {
         // given

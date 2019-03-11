@@ -7,7 +7,7 @@ import rocks.zipcode.io.quiz3.generics.ArrayUtility;
 /**
  * @author leon on 09/12/2018.
  */
-public class IntegerFindOddOccurringValue {
+public class IntegerFindOddOccurringValueTest {
     @Test
     public void test1() {
         // given

@@ -10,7 +10,7 @@ import rocks.zipcode.io.quiz3.objectorientation.enums.LabStatus;
  * @author leon on 10/12/2018.
  * Forking a lab switches labstatus to `PENDING`
  */
-public class ForkLab {
+public class ForkLabTest {
     @Test
     public void test1() {
         // given

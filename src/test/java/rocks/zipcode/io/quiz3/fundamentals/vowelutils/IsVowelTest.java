@@ -7,34 +7,38 @@ import rocks.zipcode.io.quiz3.fundamentals.VowelUtils;
 /**
  * @author leon on 09/12/2018.
  */
-public class StartsWithVowel {
+public class IsVowelTest {
     @Test
     public void test() {
         test1();
         test2();
         test3();
         test4();
+        test5();
+        test6();
     }
 
     public void test1() {
-        String input = "State";
-        Assert.assertFalse(VowelUtils.startsWithVowel(input));
+        Assert.assertTrue(VowelUtils.isVowel('a'));
     }
 
-
     public void test2() {
-        String input = "Place";
-        Assert.assertFalse(VowelUtils.startsWithVowel(input));
+        Assert.assertTrue(VowelUtils.isVowel('A'));
     }
 
     public void test3() {
-        String input = "Umbrella";
-        Assert.assertTrue(VowelUtils.startsWithVowel(input));
+        Assert.assertTrue(VowelUtils.isVowel('E'));
     }
 
     public void test4() {
-        String input = "Optional";
-        Assert.assertTrue(VowelUtils.startsWithVowel(input));
+        Assert.assertTrue(VowelUtils.isVowel('e'));
     }
 
+    public void test5() {
+        Assert.assertTrue(VowelUtils.isVowel('I'));
+    }
+
+    public void test6() {
+        Assert.assertTrue(VowelUtils.isVowel('i'));
+    }
 }

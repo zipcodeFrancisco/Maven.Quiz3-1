@@ -7,7 +7,7 @@ import rocks.zipcode.io.quiz3.fundamentals.StringUtils;
 /**
  * @author leon on 10/12/2018.
  */
-public class CapitalizeNthCharacter {
+public class CapitalizeNthCharacterTest {
     @Test
     public void test1() {
         // given

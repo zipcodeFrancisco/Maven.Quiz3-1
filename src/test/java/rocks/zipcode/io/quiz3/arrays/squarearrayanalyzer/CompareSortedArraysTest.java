@@ -7,7 +7,7 @@ import rocks.zipcode.io.quiz3.arrays.SquareArrayAnalyzer;
 /**
  * @author leon on 10/12/2018.
  */
-public class CompareSortedArrays {
+public class CompareSortedArraysTest {
 
     @Test
     public void test0() {
