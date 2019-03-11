@@ -8,6 +8,8 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+import static jdk.nashorn.internal.objects.NativeRegExp.test;
+
 /**
  * @author leon on 10/12/2018.
  */
@@ -22,8 +24,8 @@ public class CompareAssortedArrays {
 
     @Test
     public void test2() {
-        Integer[] array = {1, 1, 1};
-        Integer[] arraySquared = {1, 1, 1};
+        Integer[] array = {121, 144, 19, 161, 19, 144, 19, 11};
+        Integer[] arraySquared = {121, 14641, 20736, 361, 25921, 361, 20736, 361};
         test(array, arraySquared);
     }
 
