@@ -297,7 +297,7 @@ b = [121, 14641, 20736, 36100, 25921, 361, 20736, 361]
 
 ### Lab
 * **Description**
-	* The purpose of this class is to 
+	* The purpose of this class is to encapsulate a `name` and `LabStatus` for a particular instance of a `Lab`
 * **Methods to Complete**
 	* `String getName()`
 	* `LabStatus getStatus()`
