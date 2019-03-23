@@ -11,12 +11,12 @@ public class GetRowTest {
     @Test
     public void test1() {
         // given
+        Integer indexToFetch = 0;
         String[] row1 = {"X", "O", "X"};
         String[] row2 = {"O", "X", "O"};
         String[] row3 = {"O", "X", "O"};
         String[][] board = {row1, row2, row3};
         TicTacToe ticTacToe = new TicTacToe(board);
-        Integer indexToFetch = 0;
         String[] expected = row1;
 
         // when
@@ -29,12 +29,12 @@ public class GetRowTest {
     @Test
     public void test2() {
         // given
+        Integer indexToFetch = 1;
         String[] row1 = {"X", "O", "X"};
         String[] row2 = {"O", "X", "O"};
         String[] row3 = {"O", "X", "O"};
         String[][] board = {row1, row2, row3};
         TicTacToe ticTacToe = new TicTacToe(board);
-        Integer indexToFetch = 1;
         String[] expected = row2;
 
         // when
@@ -47,12 +47,12 @@ public class GetRowTest {
     @Test
     public void test3() {
         // given
+        Integer indexToFetch = 2;
         String[] row1 = {"X", "O", "X"};
         String[] row2 = {"O", "X", "O"};
         String[] row3 = {"O", "X", "O"};
         String[][] board = {row1, row2, row3};
         TicTacToe ticTacToe = new TicTacToe(board);
-        Integer indexToFetch = 2;
         String[] expected = row3;
 
         // when

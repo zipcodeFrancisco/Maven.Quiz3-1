@@ -11,12 +11,12 @@ public class GetColumnTest {
     @Test
     public void test1() {
         // given
+        Integer columnIndexToFetch = 0;
         String[] row1 = {"X", "O", "X"};
         String[] row2 = {"O", "X", "O"};
         String[] row3 = {"O", "X", "O"};
         String[][] board = {row1, row2, row3};
         TicTacToe ticTacToe = new TicTacToe(board);
-        Integer columnIndexToFetch = 0;
         String[] expected = {"X", "O", "O"};
 
         // when
@@ -29,12 +29,12 @@ public class GetColumnTest {
     @Test
     public void test2() {
         // given
+        Integer columnIndexToFetch = 1;
         String[] row1 = {"X", "O", "X"};
         String[] row2 = {"O", "X", "O"};
         String[] row3 = {"O", "X", "O"};
         String[][] board = {row1, row2, row3};
         TicTacToe ticTacToe = new TicTacToe(board);
-        Integer columnIndexToFetch = 1;
         String[] expected = {"O", "X", "X"};
 
         // when
@@ -47,12 +47,12 @@ public class GetColumnTest {
     @Test
     public void test3() {
         // given
+        Integer columnIndexToFetch = 2;
         String[] row1 = {"X", "O", "X"};
         String[] row2 = {"O", "X", "X"};
         String[] row3 = {"O", "X", "O"};
         String[][] board = {row1, row2, row3};
         TicTacToe ticTacToe = new TicTacToe(board);
-        Integer columnIndexToFetch = 2;
         String[] expected = {"X", "X", "O"};
 
         // when

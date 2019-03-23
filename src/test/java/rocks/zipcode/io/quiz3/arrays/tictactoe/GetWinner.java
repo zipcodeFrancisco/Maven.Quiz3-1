@@ -11,12 +11,12 @@ public class GetWinner {
     @Test
     public void testDiagonal1() {
         // given
+        String expected = "X";
         String[] row1 = {"X", "O", "X"};
         String[] row2 = {"O", "X", "O"};
         String[] row3 = {"O", "X", "X"};
         String[][] board = {row1, row2, row3};
         TicTacToe ticTacToe = new TicTacToe(board);
-        String expected = "X";
 
         // when
         String actual = ticTacToe.getWinner();
@@ -28,12 +28,12 @@ public class GetWinner {
     @Test
     public void testDiagonal2() {
         // given
+        String expected = "X";
         String[] row1 = {"O", "O", "X"};
         String[] row2 = {"O", "X", "O"};
         String[] row3 = {"X", "O", "X"};
         String[][] board = {row1, row2, row3};
         TicTacToe ticTacToe = new TicTacToe(board);
-        String expected = "X";
 
         // when
         String actual = ticTacToe.getWinner();
@@ -45,12 +45,12 @@ public class GetWinner {
     @Test
     public void testRow1() {
         // given
+        String expected = "O";
         String[] row1 = {"O", "O", "O"};
         String[] row2 = {"X", "X", "O"};
         String[] row3 = {"O", "X", "X"};
         String[][] board = {row1, row2, row3};
         TicTacToe ticTacToe = new TicTacToe(board);
-        String expected = "O";
 
         // when
         String actual = ticTacToe.getWinner();
@@ -62,12 +62,12 @@ public class GetWinner {
     @Test
     public void testRow2() {
         // given
+        String expected = "O";
         String[] row1 = {"X", "O", "X"};
         String[] row2 = {"O", "O", "O"};
         String[] row3 = {"X", "X", "O"};
         String[][] board = {row1, row2, row3};
         TicTacToe ticTacToe = new TicTacToe(board);
-        String expected = "O";
 
         // when
         String actual = ticTacToe.getWinner();
@@ -79,12 +79,12 @@ public class GetWinner {
     @Test
     public void testColumn1() {
         // given
+        String expected = "X";
         String[] row1 = {"X", "O", "X"};
         String[] row2 = {"X", "O", "O"};
         String[] row3 = {"X", "X", "O"};
         String[][] board = {row1, row2, row3};
         TicTacToe ticTacToe = new TicTacToe(board);
-        String expected = "X";
 
         // when
         String actual = ticTacToe.getWinner();
@@ -96,12 +96,12 @@ public class GetWinner {
     @Test
     public void testColumn2() {
         // given
+        String expected = "X";
         String[] row1 = {"O", "X", "X"};
         String[] row2 = {"O", "X", "O"};
         String[] row3 = {"X", "X", "O"};
         String[][] board = {row1, row2, row3};
         TicTacToe ticTacToe = new TicTacToe(board);
-        String expected = "X";
 
         // when
         String actual = ticTacToe.getWinner();
