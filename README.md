@@ -65,7 +65,7 @@
 		* If the word starts with a consonant, then shift consonants from the beginning of the word to the end of the word until the first vowel. Then, return the newly shifted string with `"ay"` appended.
 		* If the word has no vowels, then return the original string plus "ay".
 		* _Vowels_ are any of the following letters: `a`, `e`, `i`, `o`, `u`.
-		* _Consonants_ are any letter, which isn't a vowel.
+		* _Consonants_ are any letter, which aren't a vowel.
 
 
 #### Example
@@ -74,10 +74,10 @@
 ```java
 public static void main(String[] args) {
 	PigLatinGenerator p = new PigLatinGenerator();
-	System.out.println(p.translate("Map");
-	System.out.println(p.translate("Apple");
-	System.out.println(p.translate("Map Apple");
-	System.out.println(p.translate("Psych");
+	System.out.println(p.translate("Map"));
+	System.out.println(p.translate("Apple"));
+	System.out.println(p.translate("Map Apple"));
+	System.out.println(p.translate("Psych"));
 }
 ```
 
