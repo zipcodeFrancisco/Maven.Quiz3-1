@@ -23,7 +23,6 @@ public class Student {
     }
 
     public void setLabStatus(String labName, LabStatus labStatus) {
-        getLab(labName).setStatus(labStatus);
     }
 
     public void forkLab(Lab lab) {
