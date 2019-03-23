@@ -1,4 +1,4 @@
-package rocks.zipcode.io.quiz3.objectorientation.enums;
+package rocks.zipcode.io.quiz3.collections;
 
 /**
  * @author leon on 10/12/2018.

@@ -202,13 +202,6 @@ b = [121, 14641, 20736, 36100, 25921, 361, 20736, 361]
 
 
 ## Section 3 - Object Orientation
-### LabStatus
-* **Description**
-	* The purpose of this class is create enumerations representative of different states a student's lab can be in.
-	* This class is to be used in the `collections.Student` and `collections.Lab` class
-* **Enumerations to be created**
-	* `COMPELTED`, `INCOMPLETE`, `PENDING`
-
 ### RockPaperScissorsEvaluator
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Rock-paper-scissors.svg/300px-Rock-paper-scissors.svg.png" class="center">
@@ -296,6 +289,19 @@ b = [121, 14641, 20736, 36100, 25921, 361, 20736, 361]
 
 ## Section 4 - Collections
 
+### Lab
+* **Description**
+	* The purpose of this class is to create an array of near-identical `String`, whose array index corresponds to the index of the only capitalized character in the `String`
+* **Methods to Complete**
+	* `String[] wave(String str)`
+### Student
+
+### LabStatus
+* **Description**
+	* The purpose of this class is create enumerations representative of different states a student's lab can be in.
+	* This class is to be used in the `collections.Student` and `collections.Lab` class
+* **Enumerations to be created**
+	* `COMPELTED`, `INCOMPLETE`, `PENDING`
 
 
 

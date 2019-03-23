@@ -3,7 +3,7 @@ package rocks.zipcode.io.quiz3.collections.student;
 import org.junit.Test;
 import rocks.zipcode.io.quiz3.collections.Lab;
 import rocks.zipcode.io.quiz3.collections.Student;
-import rocks.zipcode.io.quiz3.objectorientation.enums.LabStatus;
+import rocks.zipcode.io.quiz3.collections.LabStatus;
 
 /**
  * @author leon on 10/12/2018.

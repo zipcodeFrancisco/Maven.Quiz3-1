@@ -1,8 +1,8 @@
-package rocks.zipcode.io.quiz3.objectorientation.enums.labstatus;
+package rocks.zipcode.io.quiz3.collections.labstatus;
 
 import org.junit.Assert;
 import org.junit.Test;
-import rocks.zipcode.io.quiz3.objectorientation.enums.LabStatus;
+import rocks.zipcode.io.quiz3.collections.LabStatus;
 
 /**
  * @author leon on 10/12/2018.

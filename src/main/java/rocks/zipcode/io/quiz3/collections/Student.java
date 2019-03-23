@@ -1,10 +1,6 @@
 package rocks.zipcode.io.quiz3.collections;
 
-import rocks.zipcode.io.quiz3.objectorientation.enums.LabStatus;
-
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 /**
  * @author leon on 10/12/2018.

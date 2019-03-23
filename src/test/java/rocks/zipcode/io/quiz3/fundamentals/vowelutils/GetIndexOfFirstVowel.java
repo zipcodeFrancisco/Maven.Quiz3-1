@@ -25,7 +25,7 @@ public class GetIndexOfFirstVowel {
     public void test2() {
         // given
         String input = "Psych!";
-        Integer expected = null;
+        Integer expected = -1;
 
         // when
         Integer actual = VowelUtils.getIndexOfFirstVowel(input);
