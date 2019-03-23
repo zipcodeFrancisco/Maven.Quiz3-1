@@ -202,28 +202,89 @@ b = [121, 14641, 20736, 36100, 25921, 361, 20736, 361]
 
 
 ## Section 3 - Object Orientation
+### LabStatus
+
+### RockPaperScissorsEvaluator
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Rock-paper-scissors.svg/300px-Rock-paper-scissors.svg.png" class="center">
+
+
+#### ROCK
+* Sample Script
+
+    ```
+    // : Given
+    RockPaperScissorHandSign rock = RockPaperScissorHandSign.ROCK;
+    
+    // : When
+    RockPaperScissorHandSign winner = rock.getWinner();
+    RockPaperScissorHandSign loser = rock.getLoser();
+    
+    // : Then
+    System.out.println(winner);
+    System.out.println(loser);
+    ```
 
 
 
+* Sample Output
+
+    ```
+    PAPER
+    SCISSORS
+    ```
+
+#### PAPER
+* Sample Script
+
+    ```
+    // : Given
+    RockPaperScissorHandSign paper = RockPaperScissorHandSign.PAPER;
+    
+    // : When
+    RockPaperScissorHandSign winner = paper.getWinner();
+    RockPaperScissorHandSign loser = paper.getLoser();
+    
+    // : Then
+    System.out.println(winner);
+    System.out.println(loser);
+    ```
 
 
 
+* Sample Output
+
+    ```
+    SCISSORS
+    ROCK
+    ```
 
 
 
+#### SCISSORS
+* Sample Script
+
+    ```
+    // : Given
+    RockPaperScissorHandSign scissors = RockPaperScissorHandSign.SCISSORS;
+    
+    // : When
+    RockPaperScissorHandSign winner = scissors.getWinner();
+    RockPaperScissorHandSign loser = scissors.getLoser();
+    
+    // : Then
+    System.out.println(winner);
+    System.out.println(loser);
+    ```
 
 
 
+* Sample Output
 
-
-
-
-
-
-
-
-
-
+    ```
+    ROCK
+    PAPER
+    ```
 
 
 
