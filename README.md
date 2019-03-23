@@ -61,7 +61,7 @@
 * **Description**
 	* Pig Latin is an English language game where the goal is to hide the meaning of a word from people not aware of the rules. 
 	* Given a `String` representative of a _word_, the rules are as follows:
-		1. If the word starts with a vowel, then return the original string with `"way"` appended.
+		* If the word starts with a vowel, then return the original string with `"way"` appended.
 		* If the word starts with a consonant, then shift consonants from the beginning of the word to the end of the word until the first vowel. Then, return the newly shifted string with `"ay"` appended.
 		* If the word has no vowels, then return the original string plus "ay".
 
