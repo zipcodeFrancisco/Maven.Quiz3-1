@@ -6,6 +6,9 @@ import rocks.zipcode.io.quiz3.arrays.SquareArrayAnalyzer;
 
 /**
  * @author leon on 10/12/2018.
+ * Given two sorted arrays `inputArray`, and `squarevAlues`,
+ * ensure each element of `inputArray` has a corresponding value in `squaredValues`
+ * such that element == value*value
  */
 public class CompareSortedArrays {
 
