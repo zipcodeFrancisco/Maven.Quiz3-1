@@ -35,16 +35,20 @@
 
 
 
-## FUNDAMENTALS
+## Section 1 - Fundamentals
 
 ### VowelUtils
 * **Description**
 	* The purpose of this class is to create utility methods to be used to assist in the completion of `PigLatinGenerator`.
 * **Methods to Complete**
 	* `Boolean hasVowels(String word)`
-	* `Integer getIndexOfFirstVowel(String word)`
-	* `Boolean startsWithVowel(String word)`
+		* return `true` if `word` contains `a`, `e`, `i`, `o`, or `u`.
 	* `Boolean isVowel(Character character)`
+		* return `true` if `character` is `a`, `e`, `i`, `o`, or `u`
+	* `Integer getIndexOfFirstVowel(String word)`
+		* return the index of the first vowel occurring in `word`
+	* `Boolean startsWithVowel(String word)`
+		* return `true` if first character of `word` is a vowel
 
 
 ### StringUtils
@@ -52,9 +56,13 @@
 	* The purpose of this class is to create utility methods to be used to assist in the completion of `WaveGenerator`.
 * **Methods to Complete**
 	* `String capitalizeNthCharacter(String str, Integer indexToCapitalize)`
+		* return `str` with the character at `indexToCapitalize` capitalized
 	* `Boolean isCharacterAtIndex(String baseString, Character characterToCheckFor, Integer indexOfString)`
+		* return `true` if `baseString` has `characterToChexFor` at index of `indexOfString`.
 	* `String[] getAllSubStrings(String string)`
+		* return the _powerset_ of characters of `string`
 	* `Integer getNumberOfSubStrings(String input)`
+		* return the number of all substrings in `input`
 
 -
 ### PigLatinGenerator
@@ -107,7 +115,7 @@ Psychay
 
 
 
-## Arrays
+## Section 2 - Arrays
 
 
 ### Square Array Checker
@@ -147,8 +155,29 @@ b = [121, 14641, 20736, 36100, 25921, 361, 20736, 361]
 
 
 ### TicTacToe
+* **Description**
+	* The purpose of this class is to create a model of a `TicTacToe` board.
+	* To be _homogenous_ means to be of a single type or value.
+* **Methods to Complete**
+	* `String[] getRow(Integer rowInde)`
+		* returns the array representative of the respective row index
+	* `String[] getColumn(Integer columnIndex)`
+		* returns the array representative of the respective column index
+	* `Boolean isRowHomogenous(Integer rowIndex)`
+		* returns true if the respective row contains 1 unique value.
+	* `Boolean isColumnHomogeneous(Integer columnIndex)`
+		* returns true if the respective row contains 1 unique value.
+	* `String getWinner()`
+		* return the `String` value of a _homogenous_ row, column, or diagnol
+	* `String[][] getBoard()`
+		* return the array representation of this `TicTacToe` board
+
 
 ### WaveGenerator
+* **Description**
+	* The purpose of this class is to create an array of near-identical `String`, whose array index corresponds to the index of the only capitalized character in the `String`
+* **Methods to Complete**
+	* `String[] wave(String str)`
 
 
 
@@ -172,7 +201,7 @@ b = [121, 14641, 20736, 36100, 25921, 361, 20736, 361]
 
 
 
-## Object Orientation
+## Section 3 - Object Orientation
 
 
 
@@ -199,7 +228,7 @@ b = [121, 14641, 20736, 36100, 25921, 361, 20736, 361]
 
 
 
-## Collections
+## Section 4 - Collections
 
 
 
@@ -223,4 +252,4 @@ b = [121, 14641, 20736, 36100, 25921, 361, 20736, 361]
 
 
 
-## Generics
+## Section 5 - Generics
