@@ -64,12 +64,14 @@
 		* If the word starts with a vowel, then return the original string with `"way"` appended.
 		* If the word starts with a consonant, then shift consonants from the beginning of the word to the end of the word until the first vowel. Then, return the newly shifted string with `"ay"` appended.
 		* If the word has no vowels, then return the original string plus "ay".
+		* _Vowels_ are any of the following letters: `a`, `e`, `i`, `o`, `u`.
+		* _Consonants_ are any letter, which isn't a vowel.
 
 
 #### Example
 * **Sample Program**
 
-```
+```java
 public static void main(String[] args) {
 	PigLatinGenerator p = new PigLatinGenerator();
 	System.out.println(p.translate("Map");
