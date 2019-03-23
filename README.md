@@ -305,7 +305,7 @@ b = [121, 14641, 20736, 36100, 25921, 361, 20736, 361]
 
 ### Student
 * **Description**
-	* The purpose of this class is to make practical use of `List` class
+	* The purpose of this class is to encapsulate and manage a composite `List` of `Lab` objects.
 * **Methods to Complete**
 	* `Lab getLab(String labName)`
 	* `void setLabStatus(String labName, LabStatus status)`
@@ -314,7 +314,7 @@ b = [121, 14641, 20736, 36100, 25921, 361, 20736, 361]
 
 ### LabStatus
 * **Description**
-	* The purpose of this class is create enumerations representative of different states a student's lab can be in.
+	* The purpose of this class is create enumerations representative of different states of a `Lab` for a particular `Student`.
 * **Enumerations to be created**
 	* `COMPELTED`, `INCOMPLETE`, `PENDING`
 
