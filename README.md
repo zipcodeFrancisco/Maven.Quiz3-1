@@ -340,3 +340,11 @@ b = [121, 14641, 20736, 36100, 25921, 361, 20736, 361]
 
 
 ## Section 5 - Generics
+### ArrayUtility
+* **Description**
+	* The purpose of this class is to create a utility for handling generic array operations.
+* **Methods to Complete**
+	* `SomeType findOddOccurringValue()`
+	* `SomeType findEvenOccurringValue()` 
+	* `Integer getNumberOfOccurrences(SomeType valueToEvaluate)`
+	* `SomeType[] filter(Function<SomeType, Boolean> predicate)`
