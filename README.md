@@ -203,6 +203,11 @@ b = [121, 14641, 20736, 36100, 25921, 361, 20736, 361]
 
 ## Section 3 - Object Orientation
 ### LabStatus
+* **Description**
+	* The purpose of this class is create enumerations representative of different states a student's lab can be in.
+	* This class is to be used in the `collections.Student` and `collections.Lab` class
+* **Enumerations to be created**
+	* `COMPELTED`, `INCOMPLETE`, `PENDING`
 
 ### RockPaperScissorsEvaluator
 
