@@ -35,7 +35,7 @@
 
 
 
-## Fundamentals
+## FUNDAMENTALS
 
 ### VowelUtils
 * **Description**
