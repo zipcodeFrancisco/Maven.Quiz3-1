@@ -206,6 +206,12 @@ b = [121, 14641, 20736, 36100, 25921, 361, 20736, 361]
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Rock-paper-scissors.svg/300px-Rock-paper-scissors.svg.png" class="center">
 
+* **Description**
+	* Rock paper scissors is a hand game which allows a player to select 1 of 3 states: `ROCK`, `PAPER`, or `SCISSORS`.
+	* A player who select `ROCK` will defeat a player who selects `SCISSORS`
+	* A player who selects `PAPER` will defeat a player who select `ROCK`
+	* A player who selects `SCISSORS` will defeat a player who selects `PAPER`
+
 
 #### ROCK
 * Sample Script
@@ -291,15 +297,24 @@ b = [121, 14641, 20736, 36100, 25921, 361, 20736, 361]
 
 ### Lab
 * **Description**
-	* The purpose of this class is to create an array of near-identical `String`, whose array index corresponds to the index of the only capitalized character in the `String`
+	* The purpose of this class is to 
 * **Methods to Complete**
-	* `String[] wave(String str)`
+	* `String getName()`
+	* `LabStatus getStatus()`
+	* `void setStatus(LabStatus status)`
+
 ### Student
+* **Description**
+	* The purpose of this class is to make practical use of `List` class
+* **Methods to Complete**
+	* `Lab getLab(String labName)`
+	* `void setLabStatus(String labName, LabStatus status)`
+	* `void forkLab(Lab lab)`
+	* `LabStatus getLabStatus(String labName)`
 
 ### LabStatus
 * **Description**
 	* The purpose of this class is create enumerations representative of different states a student's lab can be in.
-	* This class is to be used in the `collections.Student` and `collections.Lab` class
 * **Enumerations to be created**
 	* `COMPELTED`, `INCOMPLETE`, `PENDING`
 
