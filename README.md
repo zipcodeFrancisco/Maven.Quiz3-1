@@ -35,6 +35,7 @@
 
 
 <hr>
+<hr>
 
 ## Section 1 - Fundamentals
 
@@ -114,7 +115,7 @@ Psychay
 
 
 
-
+<hr>
 <hr>
 
 ## Section 2 - Arrays
@@ -201,7 +202,7 @@ b = [121, 14641, 20736, 36100, 25921, 361, 20736, 361]
 
 
 
-
+<hr>
 <hr>
 
 ## Section 3 - Object Orientation
@@ -294,7 +295,7 @@ b = [121, 14641, 20736, 36100, 25921, 361, 20736, 361]
     ```
 
 
-
+<hr>
 <hr>
 
 ## Section 4 - Collections
