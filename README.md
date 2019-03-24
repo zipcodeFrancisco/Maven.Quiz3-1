@@ -1,4 +1,5 @@
 # Quiz 3
+<hr>
 
 ## Overview
 * This quiz has 5 sections.
