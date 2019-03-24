@@ -35,6 +35,7 @@
 
 
 <hr>
+
 ## Section 1 - Fundamentals
 
 ### VowelUtils
