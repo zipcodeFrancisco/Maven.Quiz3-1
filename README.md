@@ -116,6 +116,7 @@ Psychay
 
 
 <hr>
+
 ## Section 2 - Arrays
 
 
@@ -202,6 +203,7 @@ b = [121, 14641, 20736, 36100, 25921, 361, 20736, 361]
 
 
 <hr>
+
 ## Section 3 - Object Orientation
 ### RockPaperScissorsEvaluator
 
@@ -294,6 +296,7 @@ b = [121, 14641, 20736, 36100, 25921, 361, 20736, 361]
 
 
 <hr>
+
 ## Section 4 - Collections
 
 ### Lab
@@ -340,6 +343,7 @@ b = [121, 14641, 20736, 36100, 25921, 361, 20736, 361]
 
 <hr>
 <hr>
+
 ## Section 5 - Generics
 ### ArrayUtility
 * **Description**
