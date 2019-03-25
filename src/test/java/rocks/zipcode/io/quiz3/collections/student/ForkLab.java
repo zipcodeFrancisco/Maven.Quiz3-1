@@ -32,7 +32,6 @@ public class ForkLab {
         Lab lab = new Lab("learner lab");
         Student student = new Student();
         LabStatus expected = LabStatus.valueOf("PENDING");
-
         // when
         student.forkLab(lab);
         LabStatus actual = student.getLabStatus(lab.getName());
